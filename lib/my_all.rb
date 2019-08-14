@@ -1,9 +1,9 @@
 require 'pry'
 
-def my_all?(collection)
+def my_all?(array)
   i = 0 
-  while i < 0 collection.length 
-  yield collection[i]
+  while i < 0 array.length 
+  yield array[i]
   i += 1 
   end
 end
